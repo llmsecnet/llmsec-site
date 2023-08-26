@@ -11,7 +11,7 @@ LLM security is the investigation of the failure modes of LLMs in use, the condi
 
 Here are links to large language model security content - research, papers, and news - posted by [@llm_sec](https://twitter.com/llm_sec)
 
-Got a tip/link? Open a [pull request](https://github.com/leondz/llmsec-site) or send a [DM](https://twitter.com/llm_sec).
+Got a tip/link? Open a [pull request](https://github.com/llmsecnet/llmsec-site) or send a [DM](https://twitter.com/llm_sec).
 
 ## Attacks
 

@@ -67,7 +67,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/leondz/llmsec-site'
+    url: 'https://github.com/llmsecnet/llmsec-site'
     content_dir: content
     branch: main
   comment:
