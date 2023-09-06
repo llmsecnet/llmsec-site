@@ -13,12 +13,18 @@ Here are links to large language model security content - research, papers, and 
 
 Got a tip/link? Open a [pull request](https://github.com/llmsecnet/llmsec-site) or send a [DM](https://twitter.com/llm_sec).
 
-## Attacks
+## Getting Started
 
+* [Tutorial based on ten vulnerabilities, by Hego](https://wiki.hego.tech/owasp/owasp-llm-top-10-v1.0)
+* [Prompt injection primer for engineers](https://github.com/jthack/PIPE)
+
+## Attacks
 
 ### Adversarial
 
 * [A LLM Assisted Exploitation of AI-Guardian](https://arxiv.org/abs/2307.15008)
+* [Adversarial Attacks on Tables with Entity Swap](https://ceur-ws.org/Vol-3462/TADA4.pdf)
+* [Adversarial Demonstration Attacks on Large Language Models](https://arxiv.org/abs/2305.14950)
 * [Adversarial Examples Are Not Bugs, They Are Features](https://arxiv.org/abs/1905.02175) 🌶️
 * [Are Aligned Language Models “Adversarially Aligned”?](https://www.youtube.com/watch?v=uqOfC3KSZFc) 🌶️
 * [Bad Characters: Imperceptible NLP Attacks](https://arxiv.org/abs/2106.09898)
@@ -26,14 +32,18 @@ Got a tip/link? Open a [pull request](https://github.com/llmsecnet/llmsec-site) 
 * [Gradient-based Adversarial Attacks against Text Transformers](https://arxiv.org/abs/2104.13733)
 * [Gradient-Based Word Substitution for Obstinate Adversarial Examples Generation in Language Models](https://arxiv.org/abs/2307.12507)
 * [Sample Attackability in Natural Language Adversarial Attacks](https://aclanthology.org/2023.trustnlp-1.9/)
+* [Universal and Transferable Adversarial Attacks on Aligned Language Models](https://arxiv.org/abs/2307.15043)
+* [Why Should Adversarial Perturbations be Imperceptible? Rethink the Research Paradigm in Adversarial NLP](https://arxiv.org/abs/2210.10683) 🌶️
 
 ### Backdoors & data poisoning
 
 * [A backdoor attack against LSTM-based text classification systems](https://arxiv.org/abs/1905.12457) "Submitted on 29 May 2019"!
 * [A Gradient Control Method for Backdoor Attacks on Parameter-Efficient Tuning](https://aclanthology.org/2023.acl-long.194/)
 * [Are You Copying My Model? Protecting the Copyright of Large Language Models for EaaS via Backdoor Watermark](https://arxiv.org/abs/2305.10036)
+* [Backdoor Learning on Sequence to Sequence Models](https://arxiv.org/abs/2305.02424)
 * [Backdooring Neural Code Search](https://arxiv.org/abs/2305.17506) 🌶️
 * [BadPre: Task-agnostic Backdoor Attacks to Pre-trained NLP Foundation Models](https://arxiv.org/abs/2110.02467)
+* [BadPrompt: Backdoor Attacks on Continuous Prompts](https://arxiv.org/abs/2211.14719)
 * [Be Careful about Poisoned Word Embeddings: Exploring the Vulnerability of the Embedding Layers in NLP Models](https://arxiv.org/abs/2103.15543)
 * [BadNL: Backdoor Attacks against NLP Models with Semantic-preserving Improvements](https://arxiv.org/abs/2006.01043)
 * [BITE: Textual Backdoor Attacks with Iterative Trigger Injection](https://arxiv.org/abs/2205.12700) 🌶️
@@ -52,6 +62,7 @@ Got a tip/link? Open a [pull request](https://github.com/llmsecnet/llmsec-site) 
 * [Compromising LLMs: The Advent of AI Malware](https://www.blackhat.com/us-23/briefings/schedule/index.html#compromising-llms-the-advent-of-ai-malware-33075)
 * [GPT-4 Is Too Smart To Be Safe: Stealthy Chat with LLMs via Cipher](https://arxiv.org/abs/2308.06463)
 * [Hackers Compromised ChatGPT Model with Indirect Prompt Injection](https://gbhackers.com/hackers-compromised-chatgpt-model/)
+* [Large Language Model Prompts for Prompt Injection (RTC0006)](https://redteamrecipe.com/Large-Language-Model-Prompts/)
 * [Ignore Previous Prompt: Attack Techniques For Language Models](https://arxiv.org/abs/2211.09527) 🌶️
 * [Not what you've signed up for: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection](https://arxiv.org/abs/2302.12173) 🌶️
 * [Prompt Injection attack against LLM-integrated Applications](https://arxiv.org/abs/2306.05499)
@@ -64,6 +75,7 @@ Got a tip/link? Open a [pull request](https://github.com/llmsecnet/llmsec-site) 
 * [JAILBREAKER: Automated Jailbreak Across Multiple Large Language Model Chatbots](https://arxiv.org/pdf/2307.08715.pdf)
 * [Jailbroken: How Does LLM Safety Training Fail?](https://arxiv.org/abs/2307.02483)
 * [LLM Censorship: A Machine Learning Challenge Or A Computer Security Problem?](https://www.cl.cam.ac.uk/~is410/Papers/llm_censorship.pdf) (mosaic prompts)
+* [Self-Deception: Reverse Penetrating the Semantic Firewall of Large Language Models](https://arxiv.org/abs/2308.11521v1)
 
 ### Data extraction
 
@@ -72,6 +84,10 @@ Got a tip/link? Open a [pull request](https://github.com/llmsecnet/llmsec-site) 
 * [ProPILE: Probing Privacy Leakage in Large Language Models](https://arxiv.org/abs/2307.01881) 🌶️
 * [Training Data Extraction From Pre-trained Language Models: A Survey](https://aclanthology.org/2023.trustnlp-1.23/)
 
+### Data reconstruction
+
+* [Deconstructing Classifiers: Towards A Data Reconstruction Attack Against Text Classification Models](https://arxiv.org/abs/2306.13789)
+
 ### Denial of service
 
 * [Sponge Examples: Energy-Latency Attacks on Neural Networks](https://arxiv.org/abs/2006.03463) 🌶️
@@ -79,6 +95,17 @@ Got a tip/link? Open a [pull request](https://github.com/llmsecnet/llmsec-site) 
 ### Escalation
 
 * [Hacking Auto-GPT and escaping its docker container](https://positive.security/blog/auto-gpt-rce)
+
+### Evasion
+
+* [Large Language Models can be Guided to Evade AI-Generated Text Detection](https://arxiv.org/abs/2305.10847)
+* [GPT-4 Is Too Smart To Be Safe: Stealthy Chat with LLMs via Cipher](https://arxiv.org/abs/2308.06463)
+
+### Malicious code
+
+* [A Study on Robustness and Reliability of Large Language Model Code Generation](https://arxiv.org/abs/2308.10335)
+* [Can you trust ChatGPT’s package recommendations?](https://vulcan.io/blog/ai-hallucinations-package-risk)
+
 
 ### XSS/CSRF/CPRF
 
@@ -138,6 +165,7 @@ Got a tip/link? Open a [pull request](https://github.com/llmsecnet/llmsec-site) 
 ## Evaluation
 
 * [Do you really follow me? Adversarial Instructions for Evaluating the Robustness of Large Language Models](https://arxiv.org/abs/2308.10819)
+* [Evaluating the Susceptibility of Pre-Trained Language Models via Handcrafted Adversarial Examples](https://arxiv.org/abs/2209.02128)
 * [PromptBench: Towards Evaluating the Robustness of Large Language Models on Adversarial Prompts](https://arxiv.org/abs/2306.04528)
 
 ## Practices
