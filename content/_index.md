@@ -214,6 +214,7 @@ Got a tip/link? Open a [pull request](https://github.com/llmsecnet/llmsec-site) 
 * [Security and Privacy on Generative Data in AIGC: A Survey](https://arxiv.org/abs/2309.09435)
 * [The AI Attack Surface Map v1.0](https://danielmiessler.com/p/the-ai-attack-surface-map-v1-0/)
 * [Towards Security Threats of Deep Learning Systems: A Survey](https://arxiv.org/abs/1911.12562)
+* [Operationalizing a Threat Model for Red-Teaming Large Language Models](https://arxiv.org/abs/2407.14937)
 
 ## Policy, legal, ethical, and social
 
