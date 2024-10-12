@@ -244,7 +244,7 @@ Got a tip/link? Open a [pull request](https://github.com/llmsecnet/llmsec-site) 
 * [dropbox/llm-security](https://github.com/dropbox/llm-security) demo scripts & docs for LLM attacks
 * [promptmap](https://github.com/utkusen/promptmap) bulk testing of prompt injection on openai LLMs  
 * [rebuff](https://github.com/protectai/rebuff) LLM Prompt Injection Detector
-* [](https://github.com/deadbits/vigil-llm) risky llm input detection
+* [Vigil LLM](https://github.com/deadbits/vigil-llm) risky llm input detection
 * [LLM Red Teaming Platforms](https://repello.ai/blog/llm-red-teaming-platforms) List of popular LLM Specific Red Teaming Platforms.
 
 ### general MLsec
