@@ -59,6 +59,7 @@ Got a tip/link? Open a [pull request](https://github.com/llmsecnet/llmsec-site) 
 * [Prompt as Triggers for Backdoor Attack: Examining the Vulnerability in Language Models](https://arxiv.org/abs/2305.01219)
 * [Textual Backdoor Attacks Can Be More Harmful via Two Simple Tricks](https://arxiv.org/abs/2110.08247)
 * [Two-in-One: A Model Hijacking Attack Against Text Generation Models](https://arxiv.org/abs/2305.07406)
+* [How RAG Poisoning made Llama 3 Racist](https://repello.ai/blog/how-rag-poisoning-made-llama3-racist-1c5e390dd564) 🌶️
 
 ### Prompt injection
 
@@ -102,6 +103,10 @@ Got a tip/link? Open a [pull request](https://github.com/llmsecnet/llmsec-site) 
 ### Denial of service
 
 * [Sponge Examples: Energy-Latency Attacks on Neural Networks](https://arxiv.org/abs/2006.03463) 🌶️
+
+### Denial of Wallet
+
+* [Denial of Wallets attacks](https://repello.ai/blog/denial-of-wallet) 🌶️
 
 ### Escalation
 
@@ -239,12 +244,17 @@ Got a tip/link? Open a [pull request](https://github.com/llmsecnet/llmsec-site) 
 * [dropbox/llm-security](https://github.com/dropbox/llm-security) demo scripts & docs for LLM attacks
 * [promptmap](https://github.com/utkusen/promptmap) bulk testing of prompt injection on openai LLMs  
 * [rebuff](https://github.com/protectai/rebuff) LLM Prompt Injection Detector
-* [](https://github.com/deadbits/vigil-llm) risky llm input detection
+* [Vigil LLM](https://github.com/deadbits/vigil-llm) risky llm input detection
+* [LLM Red Teaming Platforms](https://repello.ai/blog/llm-red-teaming-platforms) List of popular LLM Specific Red Teaming Platforms.
 
 ### general MLsec
 
 * [Adversarial Robustness Toolkit](https://github.com/Trusted-AI/adversarial-robustness-toolbox)
 * [nvtrust](https://github.com/NVIDIA/nvtrust) Ancillary open source software to support confidential computing on NVIDIA GPUs
+
+### AI Jailbreaking Communities
+
+* [Popular AI Jailbreaking Communities](https://repello.ai/blog/top-11-ai-jailbreak-communities-to-explore)
 
 </hr>
 
